@@ -1,3 +1,25 @@
+set nocompatible
+filetype off
+
+set rtp+=~/vimfiles/vundle.git/     "  #vundleのディレクトリ
+call vundle#rc()
+
+Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/unite.vim'
+Bundle 'thinca/vim-ref'
+Bundle 'thinca/vim-quickrun'
+
+"js
+Bundle 'JavaScript-syntax'
+Bundle 'itspriddle/vim-javascript-indent'
+
+"php
+Bundle 'cakephp.vim'
+
+filetype plugin indent on     " required!
+
+
+
 " Vi互換モードをオフ（Vimの拡張機能を有効）
  set nocompatible
  
