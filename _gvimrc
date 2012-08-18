@@ -1,0 +1,22 @@
+set columns=180
+" ウインドウの高さ
+set lines=60
+"カラー設定
+colorscheme molokai
+" 透明度を指定
+set transparency=5
+"ツールバーを非表示
+set guioptions-=T
+"新しい行のインデントを現在行と同じにする
+set autoindent
+
+set number
+"閉じ括弧が入力されたとき、対応する括弧を表示する
+set showmatch
+"新しい行を作ったときに高度な自動インデントを行う
+set smartindent
+
+"IM挿入モードの中断
+set imdisable
+
+set guifont=Ricty:h16
